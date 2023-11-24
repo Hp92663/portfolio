@@ -41,12 +41,14 @@ header {
 
 /* ME */
 
+
+
 .me {
     background-color: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
-    left: 32.5%;
+    left: 50%;
     margin-top: 4rem;
     align-items: center;
     border-radius: 12rem 12rem 0 0;
@@ -79,6 +81,10 @@ header {
 @media screen and (max-width:600px) {
     .header {
         height: 100vh;
+    }
+
+    .me {
+        margin-left: 32px;
     }
 
     .header_social,
