@@ -48,7 +48,7 @@ header {
     width: 22rem;
     height: 30rem;
     position: absolute;
-    left: 50%;
+    left: 32.5%;
     margin-top: 4rem;
     align-items: center;
     border-radius: 12rem 12rem 0 0;
@@ -83,9 +83,6 @@ header {
         height: 100vh;
     }
 
-    .me {
-        margin-left: 32px;
-    }
 
     .header_social,
     .scroll_down {

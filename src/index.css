@@ -113,6 +113,12 @@ a:hover {
     transition: var(--transition);
 }
 
+.btn_CV:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+
 .btn:hover {
     background: var(--color-white);
     color: var(--color-bg);
@@ -121,7 +127,7 @@ a:hover {
 
 .btn-primary {
     background: var(--color-primary);
-    color: var(--color-bg);
+    color: var(--color-white);
 }
 
 img {
