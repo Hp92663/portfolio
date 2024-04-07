@@ -92,7 +92,7 @@ border-color: rgba(77, 181, 255, 0.4);
   } */
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   
   .about_cards {
     grid-template-columns: 1fr;
@@ -111,6 +111,38 @@ border-color: rgba(77, 181, 255, 0.4);
 
   .about_container{
     margin: 1.5rem 0;
+  }
+
+} */
+
+@media screen and (max-width: 600px) {
+
+  .about_container {
+    display: block;
+    margin: 1.5rem auto;
+    width: 90%; /* Adjust width as needed */
+  }
+
+  .about_me {
+    width: 100%;
+    margin: 0 auto 3rem;
+  }
+
+  .about_content {
+    text-align: center;
+  }k
+
+  .about_cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0;
+  }
+
+  .about_card {
+    padding: 3rem;
+    /* padding-inline-start: 1.5rem; 
+    padding-inline-end: 1.5rem;  */
   }
 
 }
